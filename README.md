@@ -8,4 +8,5 @@ my systems bible
 
 ## Resource
 
+[Hadoop YARN](http://www.zhihu.com/question/23167837)
 [Field Guide To Hadoop](http://www.allitebooks.com/field-guide-to-hadoop/)
