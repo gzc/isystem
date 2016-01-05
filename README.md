@@ -14,3 +14,5 @@ my systems bible
 
 ## 课程资源
 [UCSD Network Service](http://cseweb.ucsd.edu/~gmporter/classes/wi15/cse124/index.html) 学习分布式前可以温习下,网络基础,数据中心,可靠性与容错.
+
+[UCSD OS](http://cseweb.ucsd.edu/classes/fa15/cse120-a/) Lab是Nachos Operating System,一个Java实现的toy OS.
