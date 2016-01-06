@@ -8,9 +8,11 @@ my systems bible
 
 ## Resource
 
-[Hadoop YARN](http://www.zhihu.com/question/23167837)
+[Hadoop YARN](http://www.zhihu.com/question/23167837) 介绍yarn的工作流
 
-[Field Guide To Hadoop](http://www.allitebooks.com/field-guide-to-hadoop/)
+[Field Guide To Hadoop](http://www.allitebooks.com/field-guide-to-hadoop/) 介绍Hadoop生态系统
+
+[micro kernels introduction](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwiBgJzJ0pTKAhVD1mMKHYDvAAkQFggyMAM&url=http%3A%2F%2Ffaculty.cs.nku.edu%2F~waldenj%2Fclasses%2F2007%2Fspring%2Fcsc660%2Flectures%2FMicrokernels.ppt&usg=AFQjCNGFhhR9HvFMab6Hoeh03xcn--fGeg&bvm=bv.110151844,d.cGc)
 
 ## 课程资源
 [UCSD Network Service](http://cseweb.ucsd.edu/~gmporter/classes/wi15/cse124/index.html) 学习分布式前可以温习下,网络基础,数据中心,可靠性与容错. Lab是写一个http server, Hadoop map reduce和twitter RPC的一个服务.
