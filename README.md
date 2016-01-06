@@ -8,6 +8,8 @@ my systems bible
 
 ## Resource
 
+[OS history](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiBgJzJ0pTKAhVD1mMKHYDvAAkQFggiMAE&url=http%3A%2F%2Fweb.mst.edu%2F~ercal%2F284%2Fslides-1%2FCHAP2.ppt&usg=AFQjCNEkcTtlkmFs2YE9-7Jp9pLfvrZU_A&bvm=bv.110151844,d.cGc) 从batch system -> multiprogramming system -> time-sharing -> micro kernel......
+
 [Hadoop YARN](http://www.zhihu.com/question/23167837) 介绍yarn的工作流
 
 [Field Guide To Hadoop](http://www.allitebooks.com/field-guide-to-hadoop/) 介绍Hadoop生态系统
