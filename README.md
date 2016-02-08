@@ -23,6 +23,10 @@ my systems bible
 
 [UCSD OS](http://cseweb.ucsd.edu/classes/fa15/cse120-a/) Lab是Nachos Operating System,一个Java实现的toy OS.
 
-[UCSD advanced OS](https://cseweb.ucsd.edu/classes/wi16/cse221-b/syllabus.html) 每节课读两篇论文,lab是systems performance measurement,测量包括CPU,Memory,Network和File Systems的一些性能. 
+[UCSD advanced OS](https://cseweb.ucsd.edu/classes/wi16/cse221-b/syllabus.html) 每节课读两篇论文,lab是systems performance measurement,测量包括CPU,Memory,Network和File Systems的一些性能.
 
 [MIT6.824 yfs lab](https://pdos.csail.mit.edu/archive/6.824-2012/labs/) 这个lab做完收获会很大很多,现在的6.824是Go lang的lab. 你会实现一个基本的本地文件系统,然后实现RPC扩展到网络文件系统,然后还会实现paxos.  [网友的实现](https://github.com/ldaochen/yfs2012) [我一个学弟的代码](https://github.com/gaocegege/CSE-Labs) 我们SJTU软件学院是大二写的这个lab,我的代码已经找不到了.
+
+
+## ARCHITECTURE
+[WEB SEARCH FOR A PLANET :THE GOOGLE CLUSTER ARCHITECTURE](./papers/Google/Google_Cluster_Architecture.md)
