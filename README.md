@@ -2,6 +2,16 @@
 my systems bible
 
 
+## BigData
+[Hadoop YARN](http://www.zhihu.com/question/23167837) 介绍yarn的工作流
+
+[zookeeper](https://www.zhihu.com/question/35139415#answer-20040689) 理解zookeeper
+
+[Field Guide To Hadoop](http://www.allitebooks.com/field-guide-to-hadoop/) 介绍Hadoop生态系统
+
+[数据序列化:Java序列化、Kryo、ProtoBuf序列化](./bigdata/serialization.md)
+
+
 ## Theory
 
 [paxos解读](http://drmingdrmer.github.io/tech/distributed/2015/11/11/paxos-slide.html)
@@ -10,11 +20,6 @@ my systems bible
 
 [OS history](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiBgJzJ0pTKAhVD1mMKHYDvAAkQFggiMAE&url=http%3A%2F%2Fweb.mst.edu%2F~ercal%2F284%2Fslides-1%2FCHAP2.ppt&usg=AFQjCNEkcTtlkmFs2YE9-7Jp9pLfvrZU_A&bvm=bv.110151844,d.cGc) 从batch system -> multiprogramming system -> time-sharing -> micro kernel......
 
-[Hadoop YARN](http://www.zhihu.com/question/23167837) 介绍yarn的工作流
-
-[zookeeper](https://www.zhihu.com/question/35139415#answer-20040689) 理解zookeeper
-
-[Field Guide To Hadoop](http://www.allitebooks.com/field-guide-to-hadoop/) 介绍Hadoop生态系统
 
 [micro kernels introduction](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwiBgJzJ0pTKAhVD1mMKHYDvAAkQFggyMAM&url=http%3A%2F%2Ffaculty.cs.nku.edu%2F~waldenj%2Fclasses%2F2007%2Fspring%2Fcsc660%2Flectures%2FMicrokernels.ppt&usg=AFQjCNGFhhR9HvFMab6Hoeh03xcn--fGeg&bvm=bv.110151844,d.cGc)
 
