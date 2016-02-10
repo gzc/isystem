@@ -37,4 +37,4 @@ my systems bible
 
 ### OS/Architecture Interaction
 
-[The Performance of µ-Kernel-Based Systems](./OS_Architecture/The_Performance_of_µ-Kernel-Based_Systems.md)  **SOSP 97'**
+[The Performance of µ-Kernel-Based Systems](./papers/OS_Architecture/The_Performance_of_µ-Kernel-Based_Systems.md)  **SOSP 97'**
