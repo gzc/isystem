@@ -6,7 +6,7 @@ Spark在便利性和性能之间做了一个平衡，提供了两种序列化的
 
 * Java序列化: Java序列化是Spark默认的序列化方式，只要你实现了Java.io.Serializable接口，就可以使用该序列化方式，你也可以通过java.io.Externalizable实现自己的序列化方式，以达到提供性能的目的。Java序列化很灵活，但是速度比较慢，并且会导致大量的序列化formats.
 
-*     Kryo序列化:序列化是Google提供的一种序列化方式，速度更快，使用内存更少，速度是Java序列化的10倍。但是并不支持Java序列化的所有形式（无所谓），并且使用之前需要对需要序列化的类进行注册。建议使用这种方式。
+* Kryo序列化:序列化是Google提供的一种序列化方式，速度更快，使用内存更少，速度是Java序列化的10倍。但是并不支持Java序列化的所有形式（无所谓），并且使用之前需要对需要序列化的类进行注册。建议使用这种方式。
 
     conf.set("spark.serializer","org.apache.spark.serializer.KryoSerializer").
 
