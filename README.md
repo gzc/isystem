@@ -11,6 +11,8 @@ my systems bible
 
 [数据序列化:Java序列化、Kryo、ProtoBuf序列化](./bigdata/serialization.md)
 
+[分布式监控工具Ganglia](./bigdata/cluster_monitor.md)
+
 
 ## Theory
 
