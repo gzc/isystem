@@ -46,4 +46,4 @@ my systems bible
 
 [The Performance of µ-Kernel-Based Systems](./papers/OS_Architecture/The_Performance_of_µ-Kernel-Based_Systems.md)  **SOSP 97'**
 
-[Exokernel: An Operating System Architecture for Application-Level Resource Management](./papers/Exokernel.md) **SOSP 95'**
+[Exokernel: An Operating System Architecture for Application-Level Resource Management](./papers/OS_Architecture/Exokernel.md) **SOSP 95'**
