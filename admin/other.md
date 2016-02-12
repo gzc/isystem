@@ -11,3 +11,10 @@ tee是一个把stdin保存到文件的小工具。
 所以执行这个命令，就相当于从vim外部修改了当前编辑的文件，好完工。
 
 ***
+
+
+### Pipe stderr
+
+    spark-submit spark_sum_list.py 2>&1 | grep 24
+
+***
