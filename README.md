@@ -50,4 +50,6 @@ my systems bible
 
 ### Virtualization
 
+[Xen and the Art of Virtualization](./papers/virtualization/xen.md) **SOSP' 03**
+
 [Cells: A Virtual Mobile Smartphone Architecture](./papers/virtualization/Cells.md)  **SOSP' 11**

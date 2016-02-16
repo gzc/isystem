@@ -1,44 +1,32 @@
 [ Xen and the Art of Virtualization](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjl4dyQ5vPKAhWDKWMKHShaDJsQFggmMAE&url=http%3A%2F%2Flass.cs.umass.edu%2F~shenoy%2Fcourses%2Ffall07%2Fpapers%2Fxen.pdf&usg=AFQjCNFpaEETsZwSNjP507dnLw1UjkCAJg&sig2=HCV8m1LePZOCZNlUpbgQrg&bvm=bv.114195076,d.cGc)
 
-# How to build a VMM
+## Requirement
 
-## Emulation
+* ISOLATION
+* resource accounting
+* APPs unmodified(OS)
+* software heterogeneity
+* perfomance/overhead
+* scale
 
-![](./imgs/emulation.png)
+## 核心idea
 
-Do whatever CPU does but ourselves, in software
-* Fetch the next instruction
-* Decode (is it an ADD, a XOR, a MOV?)
-* Execute (using the SW emulated registers and memory)
+paravirtualization : modify the OS
 
-For example:
+当时没有HW support, 也不想使用binary dynamic translation. 就修改OS, 改变跑特权指令的那部分.
 
-    addl %ebx, %eax /* eax += ebx */
+## CPU scheduling
 
-Is emulated as:
+Borrowed Vir- tual Time (BVT) scheduling algorithm
 
-    enum {EAX=0, EBX=1, ECX=2, EDX=3, ...};
-    unsigned long regs[8];
-    regs[EAX] += regs[EBX];
 
-Pro: Simple!
+## Virtual address translation
 
-Con: Sloooooow...
 
-Example: **BOCHS**  ,   **QEMU**
+Xen need only be involved in page table updates, to prevent guest OSes from making unacceptable changes
 
-## Trap and Emulate
-Actually, most VM code can execute directly on CPU just fine
-* E.g., addl %ebx, %eax
+the approach in Xen is to register guest OS page tables directly with the MMU, and restrict guest OSes to read-only access. Page table updates are passed to Xen via a hypercall; to ensure safety, requests are validated before being applied
 
-So instead of emulating this code
-* Let it run directly on the CPU
 
-But some operations are sensitive and require the hypervisor to lie, e.g.,
-* **int $0x80** (generates system call interrupt; hypervisor knows that from now on the guest thinks it’s in privileged mode; guest can’t really run in privileged mode, of course, because otherwise it’d be able to mess stuff up for the host / other guests)
-* **movel <something>**, %cr3 (switch virtual memory address spaces; once again, hypervisor can’t allow the guest to actually manipulate address spaces on its own, but it can do it for the guest)
-* **I/O ops** (I/O channels are multiplexed by the host so as to allow all the guests to use them, which once again means the hypervisor can’t allow direct access; also, I/O devices handling will not be able to tolerate multiple OSes performing uncoordinated ops)
-
-## Dynamic Binary Translation
-
-## Paravirtualization
+## Deawback
+不过Xen要使用Domain0的real driver和其他domain的虚拟driver通信，速度慢. Vmware ESX解决了这个问题.
