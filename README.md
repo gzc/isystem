@@ -53,3 +53,7 @@ my systems bible
 [Xen and the Art of Virtualization](./papers/virtualization/xen.md) **SOSP' 03**
 
 [Cells: A Virtual Mobile Smartphone Architecture](./papers/virtualization/Cells.md)  **SOSP' 11**
+
+### Scheduler
+
+[Scheduler Activations: Effective Kernel Support for the User-Level Management of Parallelism](./papers/scheduling/Scheduler_Activations.md) **SOSP' 91**
