@@ -57,3 +57,5 @@ my systems bible
 ### Scheduler
 
 [Scheduler Activations: Effective Kernel Support for the User-Level Management of Parallelism](./papers/scheduling/Scheduler_Activations.md) **SOSP' 91**
+
+[Lottery Scheduling: Flexible Proportional-Share Resource Management](./papers/scheduling/lottery.md) **OSDI' 94**
