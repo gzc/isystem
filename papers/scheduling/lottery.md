@@ -10,3 +10,9 @@ Implementations of lottery scheduling should take into consideration that there 
 
 Lottery scheduling is **starvation-free**
 Every ticket holder will finally get  the resource
+
+**ticket currency** : Currency allows a user with a set of tick- ets to allocate tickets among their own jobs in whatever currency they would like; the system then automatically converts said currency into the correct global value.
+
+**ticket transfer** : With transfers, a process can temporarily hand off its tickets to another process
+
+**ticket inflation** : a process can temporarily raise or lower the number of tickets it owns.
