@@ -5,6 +5,8 @@ my systems bible
 ## BigData
 [Hadoop YARN](http://www.zhihu.com/question/23167837) 介绍yarn的工作流
 
+[HDFS Performance](./bigdata/hadoop/hdfs_optimization.md) Improve the performance of HDFS.
+
 [zookeeper](https://www.zhihu.com/question/35139415#answer-20040689) 理解zookeeper
 
 [Field Guide To Hadoop](http://www.allitebooks.com/field-guide-to-hadoop/) 介绍Hadoop生态系统
