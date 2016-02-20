@@ -44,6 +44,10 @@ my systems bible
 
 ## Paper Reading
 
+### Communication
+
+[Implementing Remote Procedure Calls](./papers/communication/rpc.md) **TOCS' 84**
+
 ### OS/Architecture Interaction
 
 [The Performance of µ-Kernel-Based Systems](./papers/OS_Architecture/The_Performance_of_µ-Kernel-Based_Systems.md)  **SOSP' 97**
