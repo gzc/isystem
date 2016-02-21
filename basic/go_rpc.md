@@ -8,17 +8,17 @@
     * server handlers are much like ordinary procedures
   * RPC is widely used!
 
-
-
-    RPC ideally makes net communication look just like fn call:
-     Client:
-       z = fn(x, y)
-     Server:
-       fn(x, y) {
-         compute
-         return z
-       }
-    RPC aims for this level of transparency
+<pre>
+  RPC ideally makes net communication look just like fn call:
+   Client:
+    z = fn(x, y)
+   Server:
+    fn(x, y) {
+    compute
+    return z
+    }
+  RPC aims for this level of transparency
+</pre>
 
 Go example:
   https://golang.org/pkg/net/rpc/
