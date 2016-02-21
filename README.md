@@ -40,7 +40,7 @@ my systems bible
 ## ARCHITECTURE
 [WEB SEARCH FOR A PLANET :THE GOOGLE CLUSTER ARCHITECTURE](./papers/Google/Google_Cluster_Architecture.md)
 
-
+[MapReduce](./papers/Google/mr.md) **OSDI' 04**
 
 ## Paper Reading
 
