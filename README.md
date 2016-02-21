@@ -42,6 +42,8 @@ my systems bible
 
 [MapReduce](./papers/Google/mr.md) **OSDI' 04**
 
+[RPC in Golang](./basic/go_rpc.md)
+
 ## Paper Reading
 
 ### Communication

@@ -143,3 +143,6 @@ This model scales well.
   * These were good trade-offs in practice.
   * We'll see some more advanced successors later in the course.
   Have fun with the lab!
+
+
+[reference](https://pdos.csail.mit.edu/6.824/notes/l01.txt)
