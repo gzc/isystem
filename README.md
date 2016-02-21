@@ -46,6 +46,8 @@ my systems bible
 
 [Implementing Remote Procedure Calls](./papers/communication/rpc.md) **TOCS' 84**
 
+[IX: A Protected Dataplane Operating System for High Throughput and Low Latency](./papers/communication/IX.md) **OSDI' 14 Best Paper**
+
 ### OS/Architecture Interaction
 
 [The Performance of µ-Kernel-Based Systems](./papers/OS_Architecture/The_Performance_of_µ-Kernel-Based_Systems.md)  **SOSP' 97**
