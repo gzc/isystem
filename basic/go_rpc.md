@@ -9,13 +9,13 @@
   * RPC is widely used!
 
 <pre>
-  RPC ideally makes net communication look just like fn call:
-   Client:
+RPC ideally makes net communication look just like fn call:
+  Client:
     z = fn(x, y)
-   Server:
+  Server:
     fn(x, y) {
-    compute
-    return z
+      compute
+      return z
     }
   RPC aims for this level of transparency
 </pre>
