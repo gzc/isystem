@@ -8,17 +8,17 @@
     * server handlers are much like ordinary procedures
   * RPC is widely used!
 
-<pre>
-RPC ideally makes net communication look just like fn call:
-  Client:
-    z = fn(x, y)
-  Server:
-    fn(x, y) {
-      compute
-      return z
-    }
-  RPC aims for this level of transparency
-<\pre>
+
+
+    RPC ideally makes net communication look just like fn call:
+     Client:
+       z = fn(x, y)
+     Server:
+       fn(x, y) {
+         compute
+         return z
+       }
+    RPC aims for this level of transparency
 
 Go example:
   https://golang.org/pkg/net/rpc/
@@ -34,7 +34,7 @@ Software structure
     stubs           dispatcher
    RPC lib           RPC lib
      net  ------------ net
-<\pre>
+</pre>
 
 # A few details:
   * Which server function (handler) to call?
@@ -79,7 +79,7 @@ Software structure
       r = handler()
       old[xid] = r
       seen[xid] = true
-<\pre>
+</pre>
 
 # some at-most-once complexities
   * how to ensure XID is unique?
@@ -128,7 +128,7 @@ struct Network
     servers
     client endpoints
   mutex per network
-<\pre>
+</pre>
 
 
 # RPC overview
@@ -144,7 +144,7 @@ struct Network
      svc := MakeService(receiverObject) -- obj's methods will handle RPCs
        much like Go's rpcs.Register()
        pass svc to srv.AddService()
- <\pre>
+ </pre>
 
 # struct Server
   * a server support many services
@@ -199,7 +199,7 @@ Go's "memory model" requires explicit synchronization to communicate!
     while done == false { }
   it's very tempting to write, but the Go spec says it's undefined
   use a channel or sync.WaitGroup or instead
-<\pre>
+</pre>
 
 
 # Study the Go tutorials on goroutines and channels
