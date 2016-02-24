@@ -145,6 +145,18 @@ Provides file locking. [ 2 Schemes : **Hard locks** , **Advisory locks** ]
 2. 硬连接是不能跨卷的，只有在同一文件系统中的文件之间才能创建链接. (i.e., the inode number must still be meaningful)
 3. 硬连接是不会建立inode的，他只是在文件原来的inode link count域再增加1而已，也因此硬链接是不可以跨越文件系统的
 
+宝宝在这里认为linux中的**.**和**..**是hard link, 如果是soft link就太浪费inode了. 然后宝宝做了个实现. 在某个地方有个文件夹叫**admin**, 于是我run了下面这个命令
+
+    ls -id admin
+    73259842 admin
+
+然后进入admin跑
+
+    ls -id .
+    73259842 .
+
+发现两个inode是一样的, 所以可以确定是hard link.
+
 ### soft link
 1. allow the user to create an “alias” to any other file or directory on a system and thus are much more flexible.
 2. 软链接可以跨文件系统
