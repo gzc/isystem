@@ -1,6 +1,9 @@
 # SystemsBible
 my systems bible
 
+## Background Enhancement
+
+[文件系统](./basic/fs.md)
 
 ## BigData
 [Hadoop Intro](./bigdata/hadoop/intro.md) | [Hadoop YARN](http://www.zhihu.com/question/23167837) 介绍yarn的工作流 | [HDFS Performance](./bigdata/hadoop/hdfs_optimization.md) Improve the performance of HDFS
@@ -19,13 +22,6 @@ my systems bible
 ## Theory
 
 [paxos解读](http://drmingdrmer.github.io/tech/distributed/2015/11/11/paxos-slide.html)
-
-## Resource
-
-[OS history](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiBgJzJ0pTKAhVD1mMKHYDvAAkQFggiMAE&url=http%3A%2F%2Fweb.mst.edu%2F~ercal%2F284%2Fslides-1%2FCHAP2.ppt&usg=AFQjCNEkcTtlkmFs2YE9-7Jp9pLfvrZU_A&bvm=bv.110151844,d.cGc) 从batch system -> multiprogramming system -> time-sharing -> micro kernel......
-
-
-[micro kernels introduction](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwiBgJzJ0pTKAhVD1mMKHYDvAAkQFggyMAM&url=http%3A%2F%2Ffaculty.cs.nku.edu%2F~waldenj%2Fclasses%2F2007%2Fspring%2Fcsc660%2Flectures%2FMicrokernels.ppt&usg=AFQjCNGFhhR9HvFMab6Hoeh03xcn--fGeg&bvm=bv.110151844,d.cGc)
 
 ## 课程资源
 [UCSD Network Service](http://cseweb.ucsd.edu/~gmporter/classes/wi15/cse124/index.html) 学习分布式前可以温习下,网络基础,数据中心,可靠性与容错. Lab是写一个http server, Hadoop map reduce和twitter RPC的一个服务.
@@ -69,3 +65,7 @@ my systems bible
 [Scheduler Activations: Effective Kernel Support for the User-Level Management of Parallelism](./papers/scheduling/Scheduler_Activations.md) **SOSP' 91**
 
 [Lottery Scheduling: Flexible Proportional-Share Resource Management](./papers/scheduling/lottery.md) **OSDI' 94**
+
+### I/O and File Systems
+
+[A Fast File System for Unix](./papers/fs/ffs.md) **ACM Transactions on Computer Systems 84**
