@@ -133,18 +133,18 @@ struct Network
 
 # RPC overview
 <pre>
-  many examples in test_test.go
+   many examples in test_test.go
     e.g., TestBasic()
-  application calls Call()
-    reply := end.Call("Raft.AppendEntries", args, &reply) --   * send an RPC, wait for reply
-  servers side:
-     srv := MakeServer()
-     srv.AddService(svc) -- a server can have multiple services, e.g. Raft and k/v
-       pass srv to net.AddServer()
-     svc := MakeService(receiverObject) -- obj's methods will handle RPCs
-       much like Go's rpcs.Register()
-       pass svc to srv.AddService()
- </pre>
+    application calls Call()
+      reply := end.Call("Raft.AppendEntries", args, &reply) --   * send an RPC, wait for reply
+    servers side:
+      srv := MakeServer()
+      srv.AddService(svc) -- a server can have multiple services, e.g. Raft and k/v
+        pass srv to net.AddServer()
+      svc := MakeService(receiverObject) -- obj's methods will handle RPCs
+        much like Go's rpcs.Register()
+        pass svc to srv.AddService()
+</pre>
 
 # struct Server
   * a server support many services
