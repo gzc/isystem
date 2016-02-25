@@ -113,6 +113,8 @@ Which
 
 ## Crash when write to the CR(checkpoint region)
 
+LFS有两个CR, 有一个是在磁盘尾.我猜是增加系统的可靠性...
+
     如下图, 这是checkpoint region. 头尾指向s1, s3. 表示有3个segment可以checkpointing.
     LFS会先写header(包括一个timestamp), 再写segments, 再写tail block(包含相同timestamp)
     CR也会包含imap的指针等有用信息
