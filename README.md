@@ -68,4 +68,6 @@ my systems bible
 
 ### I/O and File Systems
 
-[A Fast File System for Unix](./papers/fs/ffs.md) **ACM Transactions on Computer Systems 84**
+[A Fast File System for Unix](./papers/fs/ffs.md) **TOCS' 84**
+
+[The Design and Implementation of a Log-Structured File System](./papers/fs/lfs.md) **TOCS' 92**
