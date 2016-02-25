@@ -7,4 +7,4 @@
 [Crash_Consistency_Recovery](./Crash_Consistency.md)
 
 然后讲一讲LFS
-[Log-Structured File System](./papers/fs/lfs.md)
+[Log-Structured File System](../papers/fs/lfs.md)
