@@ -8,3 +8,15 @@ Read a text file and process.
 Read a directory of text files and process them.
 
 [program](./readWholeDirTextFile.py)
+
+***
+
+To cauculate PI
+
+[program](./pi.py)
+
+***
+
+word count
+
+[program](./wordcount.py)
