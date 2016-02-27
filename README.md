@@ -73,3 +73,5 @@ my systems bible
 [The Design and Implementation of a Log-Structured File System](./papers/fs/lfs.md) **TOCS' 92**
 
 [The Rio file cache: surviving operating system crashes](./papers/fs/rio.md) **ASPLOS' 96**
+
+[Soft Updates: A Solution to the Metadata Update Problem in File Systems](./papers/fs/softupdate.md) **TOCS' 00**
