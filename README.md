@@ -71,3 +71,5 @@ my systems bible
 [A Fast File System for Unix](./papers/fs/ffs.md) **TOCS' 84**
 
 [The Design and Implementation of a Log-Structured File System](./papers/fs/lfs.md) **TOCS' 92**
+
+[The Rio file cache: surviving operating system crashes](./papers/fs/rio.md) **ASPLOS' 96**
