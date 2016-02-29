@@ -42,6 +42,8 @@ my systems bible
 
 [RPC in Golang](./basic/go_rpc.md)
 
+[f4: Facebook's Warm BLOB Storage System](./papers/facebook/f4.md) **OSDI' 14**
+
 ## Paper Reading
 
 ### Communication
