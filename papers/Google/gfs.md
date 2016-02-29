@@ -17,5 +17,5 @@
 
 ## 不同点
 
-* Only single-writers per file. 没有GFS的** Record Append **操作.
+* Only single-writers per file. 没有GFS的**Record Append**操作.
 * HDFS开源.
