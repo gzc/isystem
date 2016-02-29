@@ -38,6 +38,8 @@ my systems bible
 
 [MapReduce](./papers/Google/mr.md) **OSDI' 04**
 
+[The Google File System](./papers/Google/gfs.md) **SOSP' 03**
+
 [RPC in Golang](./basic/go_rpc.md)
 
 ## Paper Reading
