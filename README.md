@@ -58,6 +58,8 @@ my systems bible
 
 [Exokernel: An Operating System Architecture for Application-Level Resource Management](./papers/OS_Architecture/Exokernel.md) **SOSP' 95**
 
+[An Analysis of Linux Scalability to Many Cores](./papers/OS_Architecture/Corey2.md) **OSDI' 10** 
+
 ### Virtualization
 
 [Xen and the Art of Virtualization](./papers/virtualization/xen.md) **SOSP' 03**
