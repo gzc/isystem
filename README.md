@@ -18,6 +18,8 @@ my systems bible
 
 [分布式监控工具Ganglia](./bigdata/cluster_monitor.md)
 
+[two-phase commit](./bigdata/algorithm/2pc.md)
+
 
 ## Theory
 
@@ -58,7 +60,7 @@ my systems bible
 
 [Exokernel: An Operating System Architecture for Application-Level Resource Management](./papers/OS_Architecture/Exokernel.md) **SOSP' 95**
 
-[An Analysis of Linux Scalability to Many Cores](./papers/OS_Architecture/Corey2.md) **OSDI' 10** 
+[An Analysis of Linux Scalability to Many Cores](./papers/OS_Architecture/Corey2.md) **OSDI' 10**
 
 ### Virtualization
 
