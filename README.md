@@ -5,7 +5,7 @@ my systems bible
 
 [文件系统](./basic/fs.md)
 
-## BigData
+## Distributed Systems & Big Data
 [Hadoop Intro](./bigdata/hadoop/intro.md) | [Hadoop YARN](http://www.zhihu.com/question/23167837) 介绍yarn的工作流 | [HDFS Performance](./bigdata/hadoop/hdfs_optimization.md) Improve the performance of HDFS
 
 [Spark example](./bigdata/spark/sparktest)
@@ -18,7 +18,7 @@ my systems bible
 
 [分布式监控工具Ganglia](./bigdata/cluster_monitor.md)
 
-[two-phase commit](./bigdata/algorithm/2pc.md)
+[two-phase commit](./bigdata/algorithm/2pc.md) | [three-phase commit](./bigdata/algorithm/3pc.md)
 
 
 ## Theory
