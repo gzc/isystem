@@ -60,6 +60,8 @@ my systems bible
 
 [Exokernel: An Operating System Architecture for Application-Level Resource Management](./papers/OS_Architecture/Exokernel.md) **SOSP' 95**
 
+[The Multikernel: A new OS architecture for scalable multicore systems](./papers/OS_Architecture/Multikernel.md) **SOSP' 09**
+
 [An Analysis of Linux Scalability to Many Cores](./papers/OS_Architecture/Corey2.md) **OSDI' 10**
 
 ### Virtualization
