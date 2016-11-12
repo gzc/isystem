@@ -10,7 +10,7 @@ my systems bible
 
 [Spark example](./bigdata/spark/sparktest)
 
-[zookeeper](https://www.zhihu.com/question/35139415#answer-20040689) 理解zookeeper
+[zookeeper](./bigdata/zookeeper/intro.md) 理解zookeeper
 
 [Field Guide To Hadoop](http://www.allitebooks.com/field-guide-to-hadoop/) 介绍Hadoop生态系统
 
