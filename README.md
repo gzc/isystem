@@ -1,6 +1,10 @@
 # SystemsBible
 my systems bible
 
+## Cracking System Design Interviews
+[Consistent Hashing](https://youtu.be/aj1mXvHNcbQ)
+[Consistent Hashing 中文版](https://youtu.be/mdR5VIeStcQ)
+
 ## Background Enhancement
 
 [文件系统](./basic/fs.md)
