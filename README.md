@@ -3,7 +3,12 @@ my systems bible
 
 ## Cracking System Design Interviews
 [Consistent Hashing](https://youtu.be/aj1mXvHNcbQ)
-[Consistent Hashing 中文版](https://youtu.be/mdR5VIeStcQ)
+
+[Consistent Hashing 一致性哈希中文版](https://youtu.be/mdR5VIeStcQ)
+
+[Design a Web Crawler](https://youtu.be/vxqjjB3b-Zg)
+
+[Design a Web Crawler 设计网络爬虫中文版](https://youtu.be/P8LFhmC2efc)
 
 ## Background Enhancement
 
