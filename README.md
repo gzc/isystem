@@ -10,6 +10,10 @@ my systems bible
 
 [Design a Web Crawler 设计网络爬虫中文版](https://youtu.be/P8LFhmC2efc)
 
+[Message Queue & RabbitMQ & Kafka](https://youtu.be/jeMbHH6PJIA)
+
+[消息队列 & RabbitMQ & Kafka 中文版](https://youtu.be/5BdGCANeV2o)
+
 ## Background Enhancement
 
 [文件系统](./basic/fs.md)
