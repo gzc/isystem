@@ -14,6 +14,10 @@ my systems bible
 
 [消息队列 & RabbitMQ & Kafka 中文版](https://youtu.be/5BdGCANeV2o)
 
+[Facebook News Feed System Design](https://youtu.be/UueOT1Ymo9Q)
+
+[Facebook News Feed System Design 脸书新鲜事系统设计中文版](https://youtu.be/o-pdje2wmOY)
+
 ## Background Enhancement
 
 [文件系统](./basic/fs.md)
